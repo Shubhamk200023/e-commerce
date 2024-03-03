@@ -1,0 +1,71 @@
+/* Contact page styles */
+
+/* Contact container */
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact info */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.address, .email, .phone {
+    flex: 1;
+    padding: 10px;
+}
+
+.address h2, .email h2, .phone h2 {
+    margin-top: 0;
+}
+
+/* Contact form */
+.contact-form {
+    margin-bottom: 20px;
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Map */
+.map {
+    height: 300px; /* Adjust height as needed */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

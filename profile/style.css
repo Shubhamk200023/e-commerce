@@ -1,0 +1,55 @@
+.profile-dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  
+  }
+  .dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 270px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 56px;
+    margin-left: 10%;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 5px 17px;
+    text-decoration: none;
+    display: block;
+    color: rgb(78, 81, 81);
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .profile-dropdown:hover .dropdown-content {
+    display: block;
+    position: relative;
+  }
+   h4{
+    color: rgb(18, 18, 18);
+    padding: 0px 9px;
+  }
+  p{
+    color:  rgb(78, 81, 81); 
+    padding: 0px 9px;
+  }
+
+.btn {
+  margin-left: 15px;
+  color: rgb(255, 255, 255); /* Button text color */
+  text-decoration: none;
+  border: 2px solid rgb(244, 243, 243); /* Button border color */
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for background and border color */
+}
+
+/* Change button background color on hover */
+.btn:hover {
+  background-color: #ff69b4; /* Lighter pink color */
+  border-color: #ff69b4; /* Lighter pink border color on hover */
+}
